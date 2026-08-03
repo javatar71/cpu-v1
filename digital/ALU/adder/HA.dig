@@ -32,7 +32,7 @@
           <string>P</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="380"/>
+      <pos x="900" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -52,27 +52,33 @@
           <string>G</string>
         </entry>
       </elementAttributes>
-      <pos x="940" y="520"/>
+      <pos x="900" y="520"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
-      <elementAttributes>
-        <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
+      <elementAttributes/>
       <pos x="800" y="500"/>
     </visualElement>
     <visualElement>
       <elementName>XOr</elementName>
+      <elementAttributes/>
+      <pos x="800" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Testcase</elementName>
       <elementAttributes>
         <entry>
-          <string>wideShape</string>
-          <boolean>true</boolean>
+          <string>Testdata</string>
+          <testData>
+            <dataString>A B G P
+0 0 0 0 
+1 0 0 1
+0 1 0 1
+1 1 1 0</dataString>
+          </testData>
         </entry>
       </elementAttributes>
-      <pos x="800" y="360"/>
+      <pos x="820" y="420"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -93,8 +99,8 @@
       <p2 x="800" y="360"/>
     </wire>
     <wire>
-      <p1 x="880" y="520"/>
-      <p2 x="940" y="520"/>
+      <p1 x="860" y="520"/>
+      <p2 x="900" y="520"/>
     </wire>
     <wire>
       <p1 x="740" y="540"/>
@@ -105,8 +111,8 @@
       <p2 x="800" y="540"/>
     </wire>
     <wire>
-      <p1 x="880" y="380"/>
-      <p2 x="940" y="380"/>
+      <p1 x="860" y="380"/>
+      <p2 x="900" y="380"/>
     </wire>
     <wire>
       <p1 x="760" y="360"/>
